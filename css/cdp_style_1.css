@@ -1,0 +1,479 @@
+/******************************************************************/
+/* Buzzea CDP - Comparateur de Prix
+/* Author: Buzzea.com
+/* Author URI: http://Buzzea.com
+/* Copyright 2012 BUZZEA.com
+/*
+/* CSS for CDP
+/******************************************************************/
+
+/* reset within container*/
+#cdp_conteneur, #cdp_conteneur form, #cdp_conteneur input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	text-align:left;
+	outline: none;
+}
+#cdp_conteneur img { border: 0px; }
+
+#cdp_conteneur input[type="submit"], input[type="reset"] {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: inherit;
+    height: auto;
+    padding: 0;
+    vertical-align: middle;
+    width: auto;
+}
+/* end resets */
+#cdp_conteneur .ui-autocomplete { text-align:left;}
+#cdp_conteneur .ui-menu, #cdp_conteneur .ui-menu-item a { text-align: left; }
+.ui-menu, .ui-menu-item a { text-align:left;}
+
+/* container */
+#cdp_conteneur { padding:0px width:98%; font-size: 12px; clear:both }
+#cdp_conteneur table, #cdp_conteneur table th { font-size: 12px; font-weight: normal; letter-spacing: normal; line-height: 1.5; text-transform: none; border:0px; margin:0px;}
+#cdp_conteneur a { text-decoration:none; }
+#cdp_conteneur a:hover { text-decoration:underline; }
+
+/* text */
+#cdp_conteneur h1{ font-size: 18px; font-family:Verdana, Geneva, sans-serif; color:#D50400; letter-spacing: inherit; line-height: inherit; text-transform: inherit; padding:0; margin: 12 0 12 0; text-align:left;}
+#cdp_conteneur h3{ font-size: 16px; font-family:Verdana, Geneva, sans-serif; color:#000; letter-spacing: inherit; line-height: inherit; text-transform: inherit; font-weight:bold; padding: O; margin: 0; text-align:left;}
+
+/* links */
+
+/* form */
+#cdp_conteneur form input { display: block; border: 0px; /*float:left;*/ margin: 0;	padding: 0;	border: 0; box-shadow: none;}
+
+
+#cdp_conteneur .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#cdp_contenupage { padding: 20px 10px 5px 10px; }
+/* logo */
+#cdp_logo { float: left; width: 150px; margin: 0 0 10px 0;  }
+/* preview note */
+#cdp_conteneur .cdp_notice{  background-color: #FFFBCC; border-color: #E6DB55; color: #555555; 
+ 	-moz-border-radius:3px; -webkit-border-radius: 3px; border-radius: 3px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+/* search box */
+#cdp_boite_de_recherche_outer_holder { float:right; width:100%;} 
+#cdp_boite_de_recherche_holder{ display: block; border: 1px solid #dddddd;  -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;height: 18px;
+padding: 2px 0px 3px 10px; background:#fff; margin: 6px 10px 0 10px; width: auto;
+}
+#cdp_conteneur .cdp_boite_de_recherche_bar_title { background : #D50400; float:right;  color:#fff; margin: 0 10px 0 0; padding: 5px 10px 5px 10px; font-size:90%;}
+#cdp_conteneur .cdp_boite_de_recherche_bar_title_inner { background : url("http://cdp.moteurdeshopping.com/_images/cdp_calc.png") no-repeat center left; float:right; padding: 0 0 0 45px; color#fff;}
+
+#cdp_boite_de_recherche_bar_et_title { /*float:right; width:300px;*/ width:100%; }
+#cdp_boite_de_recherche_bar { height:36px; float: right; padding: 0; /*5px 10px 0px 10px*/ margin: 0 0 10px 0; width: 100%; background:#D50400; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px; } /*padding-top: 5px; padding-right: 10px; padding-bottom: 5px;  padding-left: 10px;*/
+#cdp_boite_de_recherche { width: 87%; height: 18px; float:left; }
+#cdp_conteneur .cdp_search_btn, #cdp_conteneur input[type="submit"].cdp_search_btn { display:block; float: right; height: 19px; width: 30px; background: #b0b1b3; 
+border: 1px solid #dddddd; -moz-border-radius:6px; -webkit-border-radius: 6px; border-radius: 6px; /* CSS3 */
+font-size: 20px; cursor:pointer;
+background : url("http://cdp.moteurdeshopping.com/_images/cdp_search.png") no-repeat center center;
+color : transparent;
+font-size : 0;
+margin: 0 5px 0 0;
+}
+
+#cdp_divider { clear:both; font-size: 1px; height: 1px; background:#EBEBED; }
+#cdp_navigation { font-size:95%; padding: 5px 0 0 0; color:#336699;}
+#cdp_navigation a{ color:#336699; }
+
+/* categories */
+#cdp_conteneur .cdp_categorienote { padding: 10px; }
+#cdp_conteneur .cdp_categorierow { float: left; width: 100%; clear:both; display:table;}
+#cdp_conteneur .cdp_categories { float: left; width: 100%; width:100%; }
+
+#cdp_conteneur .cdp_categorie_holder {
+   	/* float: left;*/
+   	display:table-cell;
+    width: 18%;
+	vertical-align: top;
+}
+
+#cdp_conteneur .cdp_categorie { float: left; width: 166px; margin: 0 0 0 10px; padding: 0 0 20px;  }
+#cdp_conteneur .cdp_categorie_first { margin: 0; }
+#cdp_conteneur .cdp_categorie_image { margin: 0 0 0px 0; border: 1px solid #f4f4f4; border-top:0px; text-align:center; } 
+#cdp_conteneur .cdp_categorie_libelle { position: relative; display: table; text-align: center; height: 38px; width: 100% }
+#cdp_conteneur .cdp_categorie_libelle a{ position: relative; display: table-cell; vertical-align:middle; color:#fff}
+	 
+#cdp_conteneur .cdp_children { display:none; position:relative; width:100%; border: 1px solid #f4f4f4; border-top:0px; border-bottom:0px; }
+#cdp_conteneur .cdp_children a{ color: #fff;  }
+
+#cdp_conteneur .cdp_children ul li:before { content: normal; }/*wp bug*/
+#cdp_conteneur .cdp_children ul { list-style-type: none; margin: 2px 0 0 0; padding: 0 0 0 7px; text-indent:0px; }
+#cdp_conteneur .cdp_children ul li { background-image: url('http://cdp.moteurdeshopping.com/_images/cdp_bullet.png'); background-repeat: no-repeat; background-position: 0px 7px; padding-left: 7px; margin-left:0px; list-style:none; }
+
+#cdp_conteneur .cdp_categorie_child1_libelle { padding: 0 0 0 10px; }
+#cdp_conteneur .cdp_categorie_prefix { font-size: 6px; padding: 0 5px 0 0; }
+
+#cdp_conteneur .cdp_articlesdisponible_info_holder { display:none; float:left; margin: 0 00px 10px 0; color: #000; background:#ffffff;  border: 1px solid #ebebed;  z-index:1000; width:100%; padding: 0px; 
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+#cdp_conteneur .cdp_articlesdisponible_info { display:block; float:left; margin: 0 10px 0 10px; width:98%; padding: 10px 00px 10px 00px;}
+#cdp_conteneur .cdp_categorie:hover .cdp_articlesdisponible_info { display:block;   } /* to show */
+#cdp_conteneur .cdp_categorie:hover .cdp_categorie_tri { display:block;   } /* to show */
+#cdp_conteneur .cdp_articlesdisponible_info a{ color: #ffffff; }
+
+/* categorie level*/
+#cdp_conteneur .cdp_articlesdisponible_info_marques{ float: left; padding: 0 0 0 5px; width: 120px; font-size: 95%;}
+#cdp_conteneur .cdp_articlesdisponible_info_facettes{ float: left; padding: 0 0 0 5px; width: 120px;}
+#cdp_conteneur .cdp_articlesdisponible_info_facettes_title, .cdp_articlesdisponible_info_marques_title { padding: 0 0 5px 0; text-transform:uppercase; color: #000000;}
+#cdp_conteneur .cdp_articlesdisponible_info_marques a, .cdp_articlesdisponible_info_facettes a, 
+#cdp_conteneur .cdp_articlesdisponible_info_marques_item_art a, .cdp_articlesdisponible_info_facettes_item_art a,
+#cdp_conteneur .cdp_articlesdisponible_info_marques a:visited, .cdp_articlesdisponible_info_facettes a:visited, 
+#cdp_conteneur .cdp_articlesdisponible_info_marques_item_art a:visited	, .cdp_articlesdisponible_info_facettes_item_art a:visited{ color: #666666; }
+
+#cdp_conteneur .cdp_expander1 { height: 70px; overflow:hidden; margin: 0 0 0 -17px; padding: 0 0 0 18px;}
+
+#cdp_conteneur .cdp_x_facette {  margin: 0 0 0 -18px; padding: 0 2px 0 0;}
+#cdp_conteneur .cdp_x_marque {  margin: 0 0 0 -18px; padding: 0 2px 0 0;}
+#cdp_conteneur a.cdp_x_facette , a.cdp_x_marque { color: #D50400;}
+
+/* article level*/
+#cdp_conteneur .cdp_articlesdisponible_info_art_head { background: #EBEBED; padding: 5px 5px 5px 10px; color:#000; }
+#cdp_conteneur .cdp_articlesdisponible_info_art_head_facette { background: #EBEBED; padding: 5px 5px 5px 10px; color:#000; border-left: 1px solid #666666; }
+#cdp_conteneur .cdp_articlesdisponible_info_art_body {  }
+#cdp_conteneur .cdp_articlesdisponible_info_art {  float:left; color: #000;  width:500px; padding: 0px; margin: 0; }
+#cdp_conteneur .categorieinfo_art_table { width:100%;}
+#cdp_conteneur .cdp_articlesdisponible_info_marques_art { float: left; padding: 0 0 0 5px; width: 120px; }
+#cdp_conteneur .cdp_articlesdisponible_info_facettes_art { float: left; padding: 0 0 0 5px; width: 120px; }
+#cdp_conteneur .cdp_articlesdisponible_info_facettes_title_art, .cdp_articlesdisponible_info_marques_title_art { font-size: 90%; width: 120px; float:left; padding: 5px 5px 5px 5px; text-transform:uppercase; background: #EBEBED; color: #000000; 
+border: 1px solid #000; }
+#cdp_conteneur .cdp_articlesdisponible_info_facettes_item_art, .cdp_articlesdisponible_info_marques_item_art { font-size:90%; padding: 0 0 2px 3px; color:#666666;}
+#cdp_conteneur .cdp_articlesdisponible_info_td { padding: 5px 0 0 16px }
+
+#cdp_conteneur .cdp_articlesdisponible_info_marques_art a, 
+#cdp_conteneur .cdp_articlesdisponible_info_facettes_art a, 
+#cdp_conteneur .cdp_articlesdisponible_info_marques_art a:visited, 
+#cdp_conteneur .cdp_articlesdisponible_info_facettes_art a:visited{ color: #666666; }
+
+#cdp_conteneur .cdp_categorie_image_shadow { z-index:2;}
+#cdp_conteneur .cdp_categorie_image_triangle { text-align:center; background: #000;}
+
+#cdp_conteneur .cdp_categorie_tri{ /* http://jsfiddle.net/Daniel_Hug/ZRtHF/ */
+	display: none;
+	float: left;
+    width: 150px;
+
+    color:#000;
+    font-weight:bold;
+    position: relative;
+	font-size: 90	%;
+	padding:0px;
+    background: #fff; /* color - main chunk*/
+	height: 0px;
+	}
+#cdp_conteneur .cdp_categorie_tri:after{ content: "";
+	display: block;
+	border: 15px solid #fff; /* color - sq near tri*/
+	border-bottom-color: #000; /* color - triangle */
+	border-top: 0px;
+	position: absolute;
+	bottom: 0px; /*-1 ie*/
+	left: 50%;
+	margin-left: -12px;
+	margin-bottom: 0px;
+	}
+
+/* articles */
+#cdp_conteneur .cdp_article_holder {
+   display:table-cell;
+   width: 18%;
+}
+
+#cdp_conteneur .cdp_articleset_header { float:left; width: 100%; margin:10px 0 0 0; padding: 0 0 0 00px; }
+#cdp_conteneur .cdp_articleset_header_title { float:left; background: #D50400; color:#fff; min-width: 45%; font-size: 14px; padding: 0 10px 0 10px; }
+#cdp_conteneur .cdp_articleset { float: left; width: 100%; clear:both; border: 1px solid #D50400;   }
+#cdp_conteneur .cdp_articlerow { float: left; width: 100%; clear:both; position: relative; /*new for arrows*/ }
+#cdp_conteneur .cdp_articles { float: left; width: 100%; padding: 0 0 10px 0; }
+#cdp_conteneur .cdp_article { float: left; width: 163px; margin: 0 0 20px 10px; }
+#cdp_conteneur .cdp_article_image { height:164px;	}
+
+#cdp_conteneur .cdp_article_image_zoom {height:20px; width:30px; margin: -25px 0 0 135px; position:relative;}
+#cdp_conteneur .cdp_article_details { padding: 0 0 0 10px; color:#000; text-align: center;	}
+#cdp_conteneur .cdp_voirlesuite a, #cdp_conteneur .cdp_voirlesuite a:visited{color: #D50400;}
+#cdp_conteneur .cdp_article_first { margin: 0 0 20px 10px; }
+#cdp_conteneur .cdp_article_libelle a, #cdp_conteneur .cdp_article_libelle a:visited{ font-size:115%; color: #D50400;}
+#cdp_conteneur .cdp_article_libelle { min-height: 85px;}
+
+/* article individuelle */
+#cdp_conteneur .cdp_article.unique { float: left; width:100%; }
+#cdp_conteneur .cdp_article.unique .cdp_article_image { float: left; margin: 15px 0 0 0;}
+#cdp_conteneur .cdp_article.unique .cdp_article_libelle { height: auto; min-height: 0;}
+#cdp_conteneur .cdp_article.unique .cdp_article_details { padding: 0 0 0 20px; float: left; width: 59%; text-align: left; }
+
+/* article marchand */
+#cdp_conteneur .cdp_articlesmarchand { clear:both; float: left; width:100%; color: #000; margin: 0 0 10px 0;}
+#cdp_conteneur .cdp_articlemarchand { float: left; width: 100%; padding: 2px 0 5px 0;}
+#cdp_conteneur .cdpArticle_marchand_even { background:#EBEBED; }
+#cdp_conteneur .cdp_article_marchand_image { float: left; width: 100px; padding: 5px 10px 5px 10px;}
+#cdp_conteneur .cdp_article_marchand_imagetext { float: left; width: 100px; padding: 0px 10px 5px 10px;}
+#cdp_conteneur .cdp_article_marchand_details { }
+#cdp_conteneur .cdp_article_marchand_details .cdp_article_marchand_libelle { width: 18%; float:left; color: #D50400; padding: 0 0px 0 0}
+#cdp_conteneur .cdp_article_marchand_details .cdp_article_marchand_disponibilite_info { width: 18%; float:left;}
+#cdp_conteneur .cdp_article_marchand_details .cdp_article_marchand_prix_info { width: 20%; float:left;}
+#cdp_conteneur .cdp_article_marchand_details .cdp_article_marchand_prix { font-size: 120%; font-weight:bold;}
+#cdp_conteneur .cdp_article_marchand_details .cdp_article_marchand_url { width: 90px; float:left; }
+
+#cdp_conteneur .cdp_article_marchand_btn_holder { float:right; margin: 14px 2px 0 0; width:100px; 	}
+#cdp_conteneur .cdp_article_marchand_btn { float: right; padding: 0 7px 0 0;}
+#cdp_conteneur .cdp_article_marchand_link_btn { font-size:13px; background:#D50400; height:25px; text-align:center; margin: 5px 0 10px 0; padding: 4px 4px 6px; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;}
+#cdp_conteneur .cdp_article_marchand_link_btn a, #cdp_conteneur .cdp_article_marchand_link_btn a:visited { color:#fff;}
+#cdp_conteneur .cdp_article_marchand_btn_holder a, #cdp_conteneur .cdp_article_marchand_btn_holder a:visited { color:#fff;}
+#cdp_conteneur .cdp_article_marchand_btn_shadow { background: url("http://cdp.moteurdeshopping.com/_images/cdp_article_marchand_btn_shadow.png") no-repeat;
+float: right; height: 15px; margin: 3px 0 0; width: 100px; }
+
+#cdp_conteneur img.cdp_calc_sml{ margin: 0px 0 -4px 0 ;}
+#cdp_conteneur .cdp_article_marchand_btn_holder_moins_cher { float:left; margin: 14px 0 0 0; width:280px; 	}
+#cdp_conteneur .cdp_article_marchand_btn_moins_cher { float: left; padding: 0 7px 0 0;}
+#cdp_conteneur .cdp_article_marchand_link_btn_moins_cher { font-size:13px; background:#D50400; height:25px; text-align:center; margin: 5px 0 10px 0; padding: 4px 4px 6px; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;}
+#cdp_conteneur .cdp_article_marchand_link_btn_moins_cher a, .cdp_article_marchand_link_btn_moins_cher a:visited { color:#fff;}
+#cdp_conteneur .cdp_article_marchand_btn_holder_moins_cher a, .cdp_article_marchand_btn_holder_moins_cher a:visited { color:#fff;}
+#cdp_conteneur .cdp_article_marchand_btn_moins_cher_shadow { background: url("http://cdp.moteurdeshopping.com/_images/cdp_article_marchand_btn_moins_cher_shadow.png") no-repeat; height:15px; width:241px; margin: 23px 0 0 0;}
+#cdp_conteneur table { }
+#cdp_conteneur table td { border: 0px; padding: 0px;}
+
+#cdp_conteneur .cdp_articlecaracteristiques { clear:both; float: left; width: 100%; background:#EBEBED; margin: 0 0 10px 0; padding: 5px 0 5px 0;}
+#cdp_conteneur .cdp_articlecaracteristiques h3 { margin: 0 0 0 5px; padding: 0 0 8px 0;}
+#cdp_conteneur .cdp_articlecaracteristiques_internal { float:left;  width:100%; text-align:center;}
+#cdp_conteneur table.cdp_articlecaracteristique_group { width:98%; margin: 0 auto 8px auto;  text-align:left; border-top: 1px solid #a28877; border-left: 1px solid #a28877; border-right: 1px solid #a28877;}
+#cdp_conteneur table th.cdp_articlecaracteristique_group_title { text-align: left; font-weight:bold; background:#a28877; padding: 2px 2px 2px 5px; color:#fff;}
+#cdp_conteneur table td.cdp_articlecaracteristique_libelle { width: 30%; padding: 2px 2px 2px 5px; color:#000; border-bottom: 1px solid #a28877;}
+#cdp_conteneur table td.cdp_articlecaracteristique_valeur {  width: 70%; padding: 2px 2px 2px 5px; color:#cc6633; border-bottom: 1px solid #a28877;}
+
+#cdp_conteneur .cdp_article_prix {font-weight: bold; font-size:115%;}
+#cdp_conteneur .cdp_article_sitesmarchand {color: #666666; font-size:100%;}
+
+#cdp_conteneur .cdp_article_comparez_btn_holder { margin: 7px auto 0 auto;	width: 108px; }
+#cdp_conteneur .cdp_article_comparez_btn_holder_wide { margin: 7px auto 0 auto;	width: 143px; }
+#cdp_conteneur .cdp_article_comparez_btn { float: left; height:18px;}
+#cdp_conteneur .cdp_article_comparez_link_btn { font-size:14px; background:#D50400; width:131px; height:25px; text-align:center; margin: 5px 0 10px 0; padding: 4px 9px 6px; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;}
+#cdp_conteneur .cdp_article_comparez_link_btn a, #cdp_conteneur .cdp_article_comparez_link_btn a:visited { color:#fff;}
+#cdp_conteneur .cdp_article_comparez_btn_holder a, #cdp_conteneur .cdp_article_comparez_btn_holder a:visited { color:#fff;}
+#cdp_conteneur .cdp_article_comparez_btn_shadow { float:left; background: url("http://cdp.moteurdeshopping.com/_images/cdp_article_btn_shadow.png") no-repeat; height:15px; width:145px; margin: 6px 0 0 0;}
+#cdp_conteneur .cdp_article_comparez_btn_shadow.short { float:left; background: url("http://cdp.moteurdeshopping.com/_images/cdp_article_btn_shadow_short.png") no-repeat; height:15px; width:110px; margin: 6px 0 0 0;}
+
+/* popularite */
+#cdp_conteneur .cdp_popularite_holder{     width: 120px; margin: 5px auto 10px auto; }
+#cdp_conteneur .cdp_article.unique .cdp_popularite_holder { margin: 5px 0 10px 0; }
+#cdp_conteneur .cdp_popularite_outer {
+ background: url("http://cdp.moteurdeshopping.com/_images/cdp_popularite_gris.png") no-repeat scroll left top transparent;
+    height: 21px;
+    width: 120px;
+}
+
+#cdp_conteneur .cdp_popularite_inner {
+ background: url("http://cdp.moteurdeshopping.com/_images/cdp_popularite.png") no-repeat scroll left top transparent;
+    height: 21px;
+    width: 120px;
+}
+
+/* search page */
+#cdp_conteneur .cdp_searchnotice{ color: #000; }
+
+/* selector */
+#cdp_conteneur .cdp_articles_selector_bar { float:left; width:100%; height:30px; background : url("http://cdp.moteurdeshopping.com/_images/cdp_bar_bg.jpg") repeat-x center center; color: #000;}
+#cdp_conteneur .cdp_article_result_info { float:left; padding: 5px 0 0 10px; }
+#cdp_conteneur .cdp_articles_selector_holder{ float:right;}
+#cdp_conteneur .cdp_selector_instruction{ float:left; padding: 6px 0 0 0;}
+#cdp_conteneur .cdp_styled_select select { background: transparent; width: 128px; border: 0 none; font-style: normal;}
+#cdp_conteneur .cdp_styled_select { margin: 5px 10px 0 10px; padding: 0 0 0 10px; float: right; width: 110px; overflow: hidden; border: 1px solid #EBEBED;
+   background: url('http://cdp.moteurdeshopping.com/_images/cdp_ddown_arrow.png') no-repeat right #fff; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;
+   height: 20px;
+}
+
+/* pagination */
+#cdp_conteneur .cdp_pagiholder { clear: both; float: left;   width:100%; }
+#cdp_conteneur .cdp_pagiholder.first .cdp_tablenav-pages{ margin: -28px 0 0 0; }
+#cdp_conteneur .cdp_tablenav { float:left; padding: 5px 0 0 5px; }
+#cdp_conteneur div.cdp_pagination {
+		padding: 3px;
+		margin: 3px;
+		text-align:center;
+		float:right;
+	}
+	#cdp_conteneur div.cdp_pagination a {
+		padding: 1px 8px 1px 8px;
+		margin: 2px;
+		border: 1px solid #EBEBED;
+		-moz-border-radius:6px; -webkit-border-radius: 6px; border-radius: 6px;
+		
+		text-decoration: none; /* no underline */
+		/*color: #000099;*/
+		background-color: #EBEBED;
+	}
+	#cdp_conteneur div.cdp_pagination span.current {
+		padding: 1px 8px 1px 8px;
+		margin: 2px;
+		-moz-border-radius:6px; -webkit-border-radius: 6px; border-radius: 6px;
+		font-weight: bold;
+		/*
+		background-color: #336699;
+		border: 1px solid #336699;
+		color: #FFF;
+		*/
+	}
+	#cdp_conteneur div.cdp_pagination span.disabled {
+		padding: 1px 8px 1px 8px;
+		margin: 2px;
+		border: 1px solid #EEE;
+		-moz-border-radius:6px; -webkit-border-radius: 6px; border-radius: 6px;
+	
+		color: #DDD;
+	}
+	#cdp_conteneur div.cdp_pagination .next {
+
+		border: 1px solid #EBEBED;
+		-moz-border-radius:6px; -webkit-border-radius: 6px; border-radius: 6px;
+		
+	}
+
+	#cdp_conteneur .cdp_displaying-num { padding: 5px 0 0 8px;}
+	#cdp_conteneur .cdp_tablenav-pages { color:#000;}
+
+
+	/* page arrows */
+	
+	#cdp_arrows{
+		float: left;
+    height: 52px;
+    margin: -300px 0 0;
+    width: 100%;
+	}
+	
+	.cdp_leftarrow_disabled{ 
+		height: 50px; width: 50px;
+		position:absolute;
+		margin: 0;
+		display: none;	
+	}
+	
+	.cdp_rightarrow_disabled{ 
+		height: 50px; width: 50px;
+		/*position:absolute;*/
+		margin: 0;
+		display: none;
+	}
+	
+	#cdp_leftarrow{ 
+		border-bottom: 2px solid #FFFFFF;
+		border-right: 2px solid #FFFFFF;
+		border-top: 2px solid #FFFFFF;
+		
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+
+		-moz-border-radius-bottomright: 25px;
+		-moz-border-radius-topright: 25px;
+
+		-webkit-border-bottom-right-radius: 25px;
+		-webkit-border-top-right-radius: 25px;
+		
+		float: left;
+		height: 50px;
+		margin: 0;
+		width: 50px;
+		position: absolute;
+		left: 0px;
+		top: 115px;
+	}
+	
+	#cdp_rightarrow{ 
+		border-bottom: 2px solid #FFFFFF;
+		border-left: 2px solid #FFFFFF;
+		border-top: 2px solid #FFFFFF;
+		
+		border-bottom-left-radius: 25px;
+		border-top-left-radius: 25px;
+		
+		-moz-border-radius-bottomleft: 25px;
+		-moz-border-radius-topleft: 25px;
+		
+		-webkit-border-bottom-left-radius: 25px;
+		-webkit-border-top-left-radius: 25px;
+		
+		float: right;
+		height: 50px;
+		margin: 0 0 0 auto;
+		width: 50px;
+		position: absolute;
+		right: 0px;
+		top: 115px;
+	}
+	
+	#cdp_leftarrow a{ 
+		display: block;
+		font-size: 200%;
+		height: 46px;
+		padding: 5px 0 0 10px;
+		text-decoration: none;
+		width: 43px;
+		line-height:1.5em;
+	}
+	#cdp_rightarrow a{ 
+		display: block;
+		font-size: 200%;
+		height: 46px;
+		padding: 5px 0 0 19px;
+		text-decoration: none;
+		width: 32px;
+		line-height:1.5em;
+	}
+	#cdp_leftarrow a:hover{ font-weight: bold; text-decoration:none; padding: 5px 0 0 8px;}
+	#cdp_rightarrow a:hover{ font-weight: bold; text-decoration:none; padding: 5px 0 0 17px; }
+	
+/* contact */
+
+#cdp_conteneur .cdp_contact { color: #000; float: left; padding: 0 0 0 30px; }
+#cdp_conteneur #cdp_formContact { margin: 30px 0 0 0; }
+#cdp_conteneur table td.cdp_contact_texte  { padding: 0 30px; 0 0;  }
+#cdp_conteneur table#cdp_contact_table tr { height:30px;}
+#cdp_conteneur .cdp_contact_radio { margin-left: 10px; }
+#cdp_conteneur form input.cdp_contact_texte { border: 1px solid #ebebed; height: 25px; width:295px;}  
+#cdp_conteneur form input.cdp_contact_radio {	margin: 0px;    float: none;	line-height: 1;	display: inherit;}
+#cdp_conteneur .cdp_formulaire_contact_lois , .cdp_champ_oblig{ font-size: 11px; font-style:italic;}
+#cdp_conteneur .cdp_formulaire_contact_lois { margin: 20px 0 0 0;}
+#cdp_conteneur .contact_texte_box { width:295px;  border: 1px solid #ebebed;}
+#cdp_conteneur .cdp_formulaire_contact_instruction { font-weight: bold; padding: 5px 0 5px 0;}
+#cdp_contact_table { width:80%;}
+
+#cdp_conteneur .cdp_contact_btn_holder { margin: 10px 0 10px 0; float:right;	}
+#cdp_conteneur .cdp_contact_btn { float: left; height:18px;}
+#cdp_conteneur .cdp_contact_link_btn { font-size:14px; background:#D50400; width:131px; height:25px; text-align:center; margin: 5px 0 10px 0; padding: 4px 9px 6px; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;}
+#cdp_conteneur .cdp_contact_link_btn a, #cdp_conteneur .cdp_contact_link_btn a:visited { color:#fff;}
+#cdp_conteneur .cdp_contact_btn_holder a, #cdp_conteneur .cdp_contact_btn_holder a:visited { color:#fff;}
+#cdp_conteneur .cdp_contact_btn_shadow { float:left; background: url("http://cdp.moteurdeshopping.com/_images/cdp_article_btn_shadow.png") no-repeat; height:15px; width:145px; margin: 6px 0 0 0;}
+#cdp_conteneur .cdp_contact_btn_shadow.short { float:left; background: url("http://cdp.moteurdeshopping.com/_images/cdp_article_btn_shadow_short.png") no-repeat; height:15px; width:110px; margin: 6px 0 0 0;}
+
+/* other */
+#cdp_conteneur #cdp_footer_holder { padding: 0 10px 5px 10px; }
+#cdp_conteneur #cdp_footer { width: 100%; clear:both; text-align: center; background: #ebebed; padding: 2px 0 2px 0; color: #336699;}
+#cdp_conteneur #cdp_footer a{  font: 90% Verdana, Geneva, sans-serif; color: #336699; }
+#cdp_conteneur .cdp_copyright { padding: 5px 0 0 0; text-align: center; font: 80% Verdana, Geneva, sans-serif; color: #336699;}	

@@ -1,0 +1,155 @@
+/******************************************************************/
+/* Buzzea CDP - Comparateur de Prix
+/* Author: Buzzea.com
+/* Author URI: http://Buzzea.com
+/* Copyright 2013 BUZZEA.com
+/*
+/* CSS for CDP admin. Only loaded on CDP admin tabs
+/******************************************************************/
+
+/* categories */
+#cats-all { padding: 20px 0 0 50px;} 
+#cats { padding: 10px 0 0 50px;} 
+#cats, #cats-left, #cats-right { float:left; } 
+#cats-left { width: 300px; margin: 0 0 10px;}
+#cats_articles { padding: 10px 0 0 50px;} 
+
+/* articles */
+#cdp_articles_list_loading { clear:both; background:url(../img/loading.gif) center top no-repeat; text-align:center;padding:33px 0px 0px 0px; font-size:12px;display:none; font-family:Verdana, Arial, Helvetica, sans-serif; }
+#cdp_addarticles { 
+float: left;
+width:400px; margin: 10px 0 20px 00px; padding:5px 5px 5px 5px;
+border:1px solid #aaa; background-color:#fff; cursor:text; border-radius: 5px 5px 5px 5px; border-spacing: 5px;}
+#cdp_addarticles span { display:block; width:auto; margin:0 3px 3px 0; padding:3px 20px 4px 8px; position:relative;  text-indent:0; background-color:#eee; border:1px solid #333; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; color:#333; font:normal 11px Verdana, Sans-serif; }
+#cdp_addarticles span a { position:absolute; right:8px; top:2px; color:#666; font:bold 12px Verdana, Sans-serif; text-decoration:none; }
+#cdp_addarticles span a:hover { color:#ff0000; }
+#cdp_addarticles span:first-child { margin:5px 3px 3px 0;}
+#cdp_addarticlesbox { border: 1px solid #D7D7D7; width: 70%; padding: 5px; margin: 0 0 0 5px; }
+#cdp_enselection_holder { float:left; width: 100%;margin: 10px 0 0;}
+#cdp_articles_per_cat_holder { width: 100%; float:left; } 
+.cdp_articles_per_cat_holder { width: 100%; float:left; } 
+#cdp_articles_per_cat {  
+	float: left;
+    height: 200px;
+    margin: 0 0 30px;
+    max-width: 100%;
+    min-width: 800px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.cdp_articles_per_cat {  
+	float: left;
+    height: 200px;
+    margin: 0 0 30px;
+    max-width: 100%;
+    min-width: 800px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.cdp_article_settings_article_option_autofiller{ width: 48px;}
+
+.cdp_articles_per_cat_article {   
+    display: inline-block;
+    height: 200px;
+    padding: 5px;
+    white-space: normal;
+    width: 140px; }
+#cdp_articles_per_cat_loader_holder{
+	height: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.cdp_articles_per_cat_loader_holder{
+	height: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#cdp_articles_per_cat_loader{
+	position: relative;
+	 top: 46px;
+    
+}
+.cdp_articles_per_cat_loader{
+	position: relative;
+	 top: 46px;
+}
+
+#cdp_enselection_table { border: 1px solid #D7D7D7; padding: 20px; margin: 0 0 20px 0; }
+.cdp_ajouter_left   { border: 1px dashed #999; vertical-align:top; padding: 10px 20px 10px 20px;}
+.cdp_ajouter_right  { border: 1px dashed #999; vertical-align:top; padding: 10px 20px 10px 20px;}
+.cdp_ajouter_middle { border: 0px dashed #999; vertical-align:top; padding: 50px 10px 10px 10px;}
+#cdp_ajouter_left_title, #cdp_ajouter_right_title { font-weight:bold; padding: 0; }
+
+/* group actions */
+
+.cdp_group_actions_table{ margin: 0 0 5px 0;}
+.cdpgroupaction{ margin:3px 0 0 0; }
+.cdp_group_actions_container{ float: right; }
+.cdp_group_actions_container_selector{  float: left;  margin: 0 12px 0 0;}
+.cdp_group_actions_container_apply{  float: left; margin: 5px 0 0;}
+.cdp_group_actions_container_selectall {   margin: 0 0 0 -2px; }
+
+/* search */
+.ui-menu .ui-menu-item a { width: 100%; }
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active { width: 100%; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { font-weight: normal; }
+
+/* options */
+.libelle_input { width:400px; }
+.libelle_input_nombre { width:129px; }
+
+/* general */
+.form-table th { width:0px; padding:0px; }
+
+/* widgets */
+.cdp_widgets_table { /*table-layout:fixed;*/ }
+#cdp_widgets_table td.cdp_padd_cell{ padding: 0 0 0 75px;}
+#cdp_widgets_table input[type=text] { width:250px; }
+td.cdp_enselection_area{ border:1px solid #cccccc; padding:20px; }
+
+.cdp_iframe_status_holder { height: 20px; }
+.cdp_term_notice { font-size: 10px; color:#999; }
+.cdp_hr, td.cdp_hr { height:1px; padding:0; margin:0; font-size:1px; line-height:1px;}
+.cdp_nopad, td.cdp_nopad { padding:0; margin:0; } 
+div.cdp_notice, .cdp_notice { background:#FFE7BA; border: 1px solid #FFA824; background-color:#FFE7BA; border-color:#FFA824; border-radius: 3px 3px 3px 3px; }
+div.cdp_updated, .cdp_updated { background:#FFFFE0; border: 1px solid #E6DB55; background-color:#FFFFE0; border-color:#E6DB55; border-radius: 3px 3px 3px 3px; }
+
+div.cdp_notice img, .cdp_notice img { margin: 0px 0 0 10px; vertical-align: middle;}
+.cdp_align_center { text-align:center;}
+
+#cdp_banners_holder{ margin:10px 0 0 0;}
+
+.cdp_banner_settings_icon 	{ margin: 2px 8px 2px 0px; float:left; }
+.cdp_banner_settings_title 	{ margin: 7px 0 0 0; float:left; }
+.cdp_banner_settings_action { float:right; margin: 6px 50px 0 0; }
+
+#cdp_enselection_table { background:#fff;}
+
+/* personalisation */
+#cdp_personal_table th { width:400px; }
+#cdp_personal_table td, .form-table td { font-weight:normal;  }
+#cdp_personal_table td.cdp_label { font-weight:normal; width: 400px; }
+#cdp_personal_table .cdp_bullet { margin: 0 0 0 30px;}
+
+/* buttons */
+a.button, a.button-primary, a.button-secondary {
+    line-height: 15px;
+    padding: 4px 10px;
+    white-space: nowrap;
+}
+
+/* tips */
+#cdp_help { margin: 0 0 0 222px;}
+
+p#vtip { width: 400px;display: none; position: absolute; padding: 10px; left: 5px; font-size: 1em; line-height: 1.5em; background-color: white; border: 6px solid #9aabb7; -moz-border-radius: 5px;border-radius: 5px; -webkit-border-radius: 5px; z-index: 9999}
+
+span.vtip { margin: 0 10px 0 2px !important; width: 16px; height: 16px;display: inline-block;	background: url(../img/cdp_q_icon.png) no-repeat; text-indent: -9999px; opacity: .7; filter:Alpha(Opacity=70); 
+}
+

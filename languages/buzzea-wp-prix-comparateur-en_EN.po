@@ -1,0 +1,1207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: buzzea-wp-prix-comparateur\n"
+"POT-Creation-Date: 2013-07-12 16:04+0100\n"
+"PO-Revision-Date: 2013-07-12 16:06+0100\n"
+"Last-Translator: G <gfortune@buzzea.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: buzzea-shopping-guide.php:31
+msgid "BUZZEA Guide Shopping"
+msgstr "BUZZEA Shopping Guide"
+
+#: buzzea-shopping-guide.php:139
+msgid "Nom de Votre Site"
+msgstr "Name of your site"
+
+#: buzzea-shopping-guide.php:140
+msgid "Votre Guide Shopping"
+msgstr "Your Shopping Guide"
+
+#: buzzea-shopping-guide.php:161 admin/inc/functions_admin.php:2290
+msgid "Coups de Coeur"
+msgstr "Favourites"
+
+#: admin/inc/functions_admin.php:841
+msgid "Vos options générales ont été enregistrées dans WordPress."
+msgstr "Your general options have been saved"
+
+#: admin/inc/functions_admin.php:856
+msgid ""
+"Oups, il y a un problème avec le mot de passe.<br />\n"
+"\t\t\t\t\tIl correspond au mot de passe fourni sur votre interface Buzzea et "
+"est composé de chiffres et de lettres uniquement.<br />\n"
+"\t\t\t\t\t  Si vous continuez à rencontrer des difficultés, n'hésitez pas à "
+"nous contacter au "
+msgstr ""
+"Oops, there is a problem with the password.<br />\n"
+"\t\t\t\tIt corresponds to the password supplied in the Buzzea client "
+"interface and is composed of numbers and letters only.<br />\n"
+"\t\t\t\t  If you continue to experience difficulty please don't hesitate to "
+"get in contact with us at"
+
+#: admin/inc/functions_admin.php:878
+msgid ""
+"Oups, il y a un problème avec le mot de passe.<br />\n"
+"\t\t\t\tIl correspond au mot de passe fourni sur votre interface Buzzea et "
+"est composé de chiffres et de lettres uniquement.<br />\n"
+"\t\t\t\t  Si vous continuez à rencontrer des difficultés, n'hésitez pas à "
+"nous contacter au "
+msgstr ""
+"Oops, there is a problem with the password.<br />\n"
+"\t\t\t\tIt corresponds to the password supplied in the Buzzea client "
+"interface and is composed of numbers and letters only.<br />\n"
+"\t\t\t\t  If you continue to experience difficulty please don't hesitate to "
+"get in contact with us at"
+
+#: admin/inc/functions_admin.php:894 admin/inc/functions_admin.php:1951
+#: admin/inc/functions_widget.php:644
+msgid "Action incorrecte - nous ne pouvons pas enregistrer vos options"
+msgstr "Invalid request - we could not save your options"
+
+#: admin/inc/functions_admin.php:947 admin/inc/functions_admin.php:1012
+#: admin/inc/functions_admin.php:1079 admin/inc/functions_widget.php:697
+#: admin/inc/functions_widget.php:767 admin/inc/functions_widget.php:847
+#: admin/inc/tabs.php:1345 admin/inc/tabs.php:1380 admin/inc/tabs.php:1417
+#: admin/inc/tabs.php:1454 admin/inc/tabs.php:1520
+msgid "Vos options ont été enregistrées"
+msgstr "Your options have been saved"
+
+#: admin/inc/functions_admin.php:961 admin/inc/functions_admin.php:1093
+#: admin/inc/functions_admin.php:2010
+msgid ""
+"Oups, il y a un problème avec la mise à jour. Si vous continuez à rencontrer "
+"des difficultés, n'hésitez pas à nous contacter au "
+msgstr ""
+"Oops, there is a problem with the update. If you continue to experience "
+"difficulty please don't hesitate to contact us at"
+
+#: admin/inc/functions_admin.php:1143
+msgid "*Libelle de votre site invalide, merci de corriger"
+msgstr "*Libelle de votre site invalide, merci de corriger"
+
+#: admin/inc/functions_admin.php:1158
+msgid "*Libelle de comparateur invalide, merci de corriger"
+msgstr "*Invalid Shopping Guide name, please correct"
+
+#: admin/inc/functions_admin.php:1175 admin/inc/functions_admin.php:1297
+#: admin/inc/functions_admin.php:1862 admin/inc/functions_admin.php:1938
+#: admin/inc/functions_widget.php:631
+msgid "Mise à jour invalide, merci de corriger"
+msgstr "Update invalid, please correct"
+
+#: admin/inc/functions_admin.php:1199 admin/inc/functions_admin.php:1885
+#: admin/inc/functions_admin.php:2024
+msgid "Action incorrecte - nous ne pouvons pas enregistrer vos catégories"
+msgstr "Invalid action - we could not save your categories"
+
+#: admin/inc/functions_admin.php:1242 admin/inc/functions_admin.php:1280
+msgid "*Choix d'articles en selection invalide, merci de corriger"
+msgstr "*Invalid choice of products for selection, please correct"
+
+#: admin/inc/functions_admin.php:1260
+msgid "*Choix de seulement articles en selection invalide, merci de corriger"
+msgstr "*Invalid choice of 'only products in selection', please correct"
+
+#: admin/inc/functions_admin.php:1323
+msgid "Action incorrecte - nous ne pouvons pas enregistrer vos coordonées"
+msgstr "Invalid action - we could not save your details"
+
+#: admin/inc/functions_admin.php:1385
+msgid "*Graphic option invalide, merci de corriger"
+msgstr "Incorrect graphic option, please correct"
+
+#: admin/inc/functions_admin.php:1406 admin/inc/functions_admin.php:1427
+msgid "*Nombre d'articles par page invalide, merci de corriger"
+msgstr "*Incorrect number of products per page, please correct"
+
+#: admin/inc/functions_admin.php:1449 admin/inc/functions_admin.php:1469
+msgid "*Nombre d'articles par ligne invalide, merci de corriger"
+msgstr "*Incorrect number of products per line, please correct"
+
+#: admin/inc/functions_admin.php:1491 admin/inc/functions_admin.php:1504
+msgid "*Nombre de catégories par ligne invalide, merci de corriger"
+msgstr "*Incorrect number of articles per line, please correct"
+
+#: admin/inc/functions_admin.php:1523 admin/inc/functions_admin.php:1536
+#: admin/inc/functions_admin.php:1549 admin/inc/functions_admin.php:1562
+#: admin/inc/functions_admin.php:1695 admin/inc/functions_admin.php:1708
+#: admin/inc/functions_admin.php:1721 admin/inc/functions_admin.php:1734
+msgid "*Couleur non valide pour le texte, merci de corriger"
+msgstr "*Incorrect text colour, please correct"
+
+#: admin/inc/functions_admin.php:1575 admin/inc/functions_admin.php:1588
+#: admin/inc/functions_admin.php:1601 admin/inc/functions_admin.php:1614
+#: admin/inc/functions_admin.php:1747 admin/inc/functions_admin.php:1760
+#: admin/inc/functions_admin.php:1773 admin/inc/functions_admin.php:1786
+msgid "*Couleur non valide pour les liens, merci de corriger"
+msgstr "*Incorrect link colour, please correct"
+
+#: admin/inc/functions_admin.php:1627 admin/inc/functions_admin.php:1653
+#: admin/inc/functions_admin.php:1666 admin/inc/functions_admin.php:1679
+#: admin/inc/functions_admin.php:1799 admin/inc/functions_admin.php:1825
+#: admin/inc/functions_admin.php:1838 admin/inc/functions_admin.php:1851
+msgid "*Couleur non valide pour le thème, merci de corriger"
+msgstr "*Incorrect theme colour, please correct"
+
+#: admin/inc/functions_admin.php:1640 admin/inc/functions_admin.php:1812
+msgid "*Couleur non valide pour le fond, merci de corriger"
+msgstr "*Incorrect background colour, please correct"
+
+#: admin/inc/functions_admin.php:1921
+msgid "*Nombre d'articles pour auto selection invalide, merci de corriger"
+msgstr "*Invalid number for auto selection of products, please correct"
+
+#: admin/inc/functions_admin.php:1998
+msgid "Catégories enregistrées"
+msgstr "Categories saved"
+
+#: admin/inc/functions_admin.php:2229
+#: admin/inc/functions_article_display.php:484
+msgid "Pas des Categories"
+msgstr "No Categories"
+
+#: admin/inc/functions_admin.php:2247
+msgid "Tous les rayons"
+msgstr "All categories"
+
+#: admin/inc/functions_admin.php:2248
+msgid "Seulement les rayons suivants"
+msgstr "Only the following categories"
+
+#: admin/inc/functions_admin.php:2300
+msgid "Uncategorized"
+msgstr "Uncategorized"
+
+#: admin/inc/functions_article_display.php:58
+#: admin/inc/functions_article_display.php:189
+msgid "Pas d'articles en sélection"
+msgstr "No products selected"
+
+#: admin/inc/functions_article_display.php:108
+#: admin/inc/functions_article_display.php:239
+msgid "supprimer"
+msgstr "delete"
+
+#: admin/inc/functions_article_display.php:123
+#: admin/inc/functions_article_display.php:255
+msgid "Il n'y a pas d'articles"
+msgstr "There are no products"
+
+#: admin/inc/functions_article_display.php:276
+msgid "Vos Articles déja en Selection"
+msgstr "Your Selected Products"
+
+#: admin/inc/functions_article_display.php:283
+#: admin/inc/functions_article_display.php:342
+msgid "Nb."
+msgstr "No."
+
+#: admin/inc/functions_article_display.php:284
+#: admin/inc/functions_article_display.php:343
+msgid "Article"
+msgstr "Product"
+
+#: admin/inc/functions_article_display.php:285
+#: admin/inc/functions_article_display.php:344
+msgid "Action"
+msgstr "Action"
+
+#: admin/inc/functions_article_display.php:397
+msgid "l'affichage"
+msgstr "showing"
+
+#: admin/inc/functions_article_display.php:397
+msgid "de"
+msgstr "of"
+
+#: admin/inc/functions_article_display.php:643
+msgid "Bannières contextuelles par "
+msgstr "Contextual banners by"
+
+#: admin/inc/functions_widget.php:305
+msgid "*Activité pour widget invalide, merci de corriger"
+msgstr "*Incorrect widget information, please correct"
+
+#: admin/inc/functions_widget.php:330
+#, fuzzy
+msgid "*Contextuel pour widget invalide, merci de corriger"
+msgstr "*Invalid widget terms, please correct"
+
+#: admin/inc/functions_widget.php:355
+msgid "*Affichage pour widget invalide, merci de corriger"
+msgstr "*\"show beside guide' option incorrect, please correct"
+
+#: admin/inc/functions_widget.php:382
+msgid "*Affichage pour widget apres posts invalide, merci de corriger"
+msgstr "*\"show below posts' option incorrect, please correct"
+
+#: admin/inc/functions_widget.php:409
+msgid "*Affichage pour widget apres pages invalide, merci de corriger"
+msgstr "*\"show below pages' option incorrect, please correct"
+
+#: admin/inc/functions_widget.php:434
+msgid "*Size pour widget invalide, merci de corriger"
+msgstr "*Incorrect widget size, please correct"
+
+#: admin/inc/functions_widget.php:457
+msgid "*Nombre limite pour widget invalide, merci de corriger"
+msgstr "*Invalid limit number for widget, please correct"
+
+#: admin/inc/functions_widget.php:480
+msgid "*Termes pour widget invalide, merci de corriger"
+msgstr "*Invalid widget terms, please correct"
+
+#: admin/inc/functions_widget.php:503
+#, fuzzy
+msgid "*Libelle pour widget invalide, merci de corriger"
+msgstr "*Incorrect widget size, please correct"
+
+#: admin/inc/functions_widget.php:526
+#, fuzzy
+msgid "*Libelle limite pour widget invalide, merci de corriger"
+msgstr "*Invalid limit number for widget, please correct"
+
+#: admin/inc/functions_widget.php:549
+#, fuzzy
+msgid "*Coueur pour widget invalide, merci de corriger"
+msgstr "*Invalid widget terms, please correct"
+
+#: admin/inc/functions_widget.php:577
+msgid "*Catégorie pour widget invalide, merci de corriger"
+msgstr "*Invalid widget category, please correct"
+
+#: admin/inc/functions_widget.php:602
+msgid "*Catégorie ID pour widget invalide, merci de corriger"
+msgstr "*Invalid widget category id, please correct"
+
+#: admin/inc/functions_widget.php:1086
+#, fuzzy
+msgid "Buzzea Bannière "
+msgstr "Buzzea Shopping Banners "
+
+#: admin/inc/functions_widget.php:1087
+msgid "Bannière de Shopping avec vos articles"
+msgstr "Shopping Banner with your products"
+
+#: admin/inc/functions_widget.php:1254 admin/inc/functions_widget.php:1911
+msgid "Remarque"
+msgstr "Note"
+
+#: admin/inc/functions_widget.php:1254 admin/inc/functions_widget.php:1911
+msgid ""
+"Cette bannière prend automatiquement la largeur de la page / l'endroit où il "
+"est placé "
+msgstr "This banner automatically fills the width / area that it is placed in"
+
+#: admin/inc/functions_widget.php:1262 admin/inc/jquery_widgets.php:82
+#: admin/inc/jquery_widgets.php:85
+msgid "Afficher le code du widget à intégrer à mon site"
+msgstr "Show widget code to integrate on my site"
+
+#: admin/inc/functions_widget.php:1265
+msgid ""
+"<br />Si votre thème de Wordpress n'a pas d'endroits pour 'Widgets', pour "
+"installer ce widget sur votre site, il vous faut copier le code ci-dessus et "
+"le coller à l'endroit désiré dans le code source de votre site.<br>Nous vous "
+"conseillons de faire en sorte que ce widget soit bien visible et sur toutes "
+"les pages de votre site afin d'optimiser le nombre de clics sur les "
+"articles. "
+msgstr ""
+"<br />If your Wordpress theme does not have support for 'Widgets', to "
+"install this widget on your site, copy the code below and paste within the "
+"source code of your site.<br>We advise making the widget visible on all "
+"pages of your site to maximise the number of clicks per product."
+
+#: admin/inc/functions_widget.php:1281 admin/inc/functions_widget.php:1349
+msgid "Taille"
+msgstr "Size"
+
+#: admin/inc/functions_widget.php:1295
+#, fuzzy
+msgid "Supprimer"
+msgstr "delete"
+
+#: admin/inc/functions_widget.php:1341
+msgid "Type de Bannière"
+msgstr "Banner type"
+
+#: admin/inc/functions_widget.php:1349
+msgid "Actif"
+msgstr "Active"
+
+#: admin/inc/functions_widget.php:1371
+msgid "Afficher en même temps sur <br />les pages de mon Guide Shopping"
+msgstr "Show alongside <br /> the pages of the Shopping Guide"
+
+#: admin/inc/functions_widget.php:1380
+msgid "Afficher apres <br />les pages de mon site"
+msgstr "Show below <br /> the pages of my site"
+
+#: admin/inc/functions_widget.php:1389
+msgid "Afficher apres <br />les articles de mon site"
+msgstr "Show below <br />the posts of my site"
+
+#: admin/inc/functions_widget.php:1403
+msgid "Libelle de la bannière"
+msgstr "Banner label"
+
+#: admin/inc/functions_widget.php:1404
+msgid "caractères maximum"
+msgstr "characters max"
+
+#: admin/inc/functions_widget.php:1408 admin/inc/functions_widget.php:1451
+msgid "Appuyez sur retourne pour mettre la bannière à jour..."
+msgstr "Hit enter to update the banner..."
+
+#: admin/inc/functions_widget.php:1416
+msgid "Couleur"
+msgstr "colour"
+
+#: admin/inc/functions_widget.php:1429
+msgid "<strong>Limite</strong> d'Articles à afficher"
+msgstr "<strong>Limit</strong> of products to show"
+
+#: admin/inc/functions_widget.php:1447
+msgid "Affiche les articles liés aux <strong>termes</strong>"
+msgstr "Show items related to the <strong>terms</strong>"
+
+#: admin/inc/functions_widget.php:1457
+msgid "Ou"
+msgstr "Or"
+
+#: admin/inc/functions_widget.php:1464
+msgid "des articles dans la <strong>catégorie</strong>"
+msgstr "the products in the <strong>category</strong>"
+
+#: admin/inc/functions_widget.php:1465
+msgid ""
+"<br /><br /><strong>Remarque :</strong><br />Si aucun produit correspondant "
+"à vos choix n'est trouvé, afin d'assurer une continuité de service alors des "
+"articles aléatoires seront quand même affichés."
+msgstr ""
+"<br /><br /><strong>Note :</strong><br />If no products corresponding to "
+"your choice are found, random products are shown to ensure continuity of "
+"service."
+
+#: admin/inc/functions_widget.php:1491
+#, fuzzy
+msgid "Coups de Coeur :"
+msgstr "Favourites"
+
+#: admin/inc/functions_widget.php:1495 admin/inc/functions_widget.php:1743
+#: admin/inc/tabs.php:1572
+msgid "<p>Ajouter en parcourant le catalogue :</p>"
+msgstr "<p>Add by browsing the catalogue:</p>"
+
+#: admin/inc/functions_widget.php:1509 admin/inc/functions_widget.php:1756
+#: admin/inc/tabs.php:1581
+msgid "ou"
+msgstr "or"
+
+#: admin/inc/functions_widget.php:1513 admin/inc/functions_widget.php:1760
+#: admin/inc/tabs.php:1585
+msgid "<p>Ajouter en faisant une recherche :</p>"
+msgstr "<p>Add via search :</p>"
+
+#: admin/inc/functions_widget.php:1515 admin/inc/functions_widget.php:1762
+#: admin/inc/tabs.php:1587
+msgid "Ajouter des articles "
+msgstr "Add products"
+
+#: admin/inc/functions_widget.php:1555
+msgid "Pas de bannières disponibles"
+msgstr "No banners available"
+
+#: admin/inc/functions_widget.php:1716
+msgid ""
+"Une bannière contextuelle affichera des articles en rapport avec cette "
+"page / article. Les articles seront automatiquement ajoutés et peuvent être "
+"éditées manuellement."
+msgstr ""
+"A contextual banner will show articles in relation to this page/post. The "
+"articles will be added automatically and can be edited manually."
+
+#: admin/inc/functions_widget.php:1717
+msgid "Ajoutez une bannière contextuelle"
+msgstr "Add a contextual banner"
+
+#: admin/inc/functions_widget.php:1912
+msgid "Nous recommandons 10 articles minimum "
+msgstr "We recommend 10 articles minimum"
+
+#: admin/inc/functions_widget.php:1916
+msgid "Afficher cette bannière après cet article sur mon site "
+msgstr "Show this banner below this article on ly site"
+
+#: admin/inc/functions_widget.php:1939
+msgid "Sélectionnez une bannière"
+msgstr "Choose a banner"
+
+#: admin/inc/functions_widget.php:1947
+msgid "contextuel"
+msgstr "contextual"
+
+#: admin/inc/jquery_articles.php:18
+#: admin/inc/jquery_articles_contextual.php:12
+#: admin/inc/jquery_articles_widgets.php:18
+msgid "L\\'article a été ajouté à votre comparateur"
+msgstr "The product has been added to your guide"
+
+#: admin/inc/jquery_articles.php:19
+#: admin/inc/jquery_articles_contextual.php:13
+#: admin/inc/jquery_articles_widgets.php:19
+msgid "L\\'article existe déjà dans votre comparateur"
+msgstr "The product already exists in your guide"
+
+#: admin/inc/jquery_articles.php:87 admin/inc/jquery_articles_widgets.php:98
+msgid "Etes-vous sur de vouloir supprimer cet article ?"
+msgstr "Are you sure you want to delete this product?"
+
+#: admin/inc/jquery_articles.php:110
+#: admin/inc/jquery_articles_contextual.php:216
+#: admin/inc/jquery_articles_widgets.php:125
+msgid "Aucune article en selection"
+msgstr "No products selected"
+
+#: admin/inc/jquery_articles.php:155
+#: admin/inc/jquery_articles_contextual.php:262
+#: admin/inc/jquery_articles_widgets.php:170
+msgid "Êtes-vous sûr de vouloir supprimer ces articles ?"
+msgstr "Are you sure you want to delete these products?"
+
+#: admin/inc/jquery_articles.php:181
+#: admin/inc/jquery_articles_contextual.php:292
+#: admin/inc/jquery_articles_widgets.php:196
+msgid "Êtes-vous sûr de vouloir supprimer tous ces articles ?"
+msgstr "Are you sure you want to delete all these products?"
+
+#: admin/inc/jquery_articles.php:313
+#: admin/inc/jquery_articles_contextual.php:424
+#: admin/inc/jquery_articles_widgets.php:346
+msgid "Il n\\'y a pas des articles"
+msgstr "There are no products"
+
+#: admin/inc/jquery_articles.php:478
+#: admin/inc/jquery_articles_contextual.php:590
+#: admin/inc/jquery_articles_widgets.php:528
+msgid "L\\'article a été enlevé de votre comparateur"
+msgstr "The product has been removed from your guide"
+
+#: admin/inc/jquery_articles.php:570
+#: admin/inc/jquery_articles_contextual.php:193
+#: admin/inc/jquery_articles_contextual.php:687
+#: admin/inc/jquery_articles_widgets.php:656
+msgid "Etes-vous sur de vouloir supprimer cet article?"
+msgstr "Are you sure you want to delete this product?"
+
+#: admin/inc/jquery_articles_contextual.php:117
+#, fuzzy
+msgid ""
+"S\\'il vous plaît ajouter un titre à votre article / page et enregistrez"
+msgstr "Please add title to your post/page and save"
+
+#: admin/inc/jquery_articles_contextual.php:770
+#: admin/inc/jquery_widgets.php:383 admin/inc/jquery_widgets.php:431
+msgid "Veuillez patienter, s'il vous plaît"
+msgstr "Please wait"
+
+#: admin/inc/jquery_articles_contextual.php:779
+#: admin/inc/jquery_widgets.php:392 admin/inc/jquery_widgets.php:434
+msgid "Bannière mise à jour"
+msgstr "Banner updated"
+
+#: admin/inc/jquery_widgets.php:62
+#, fuzzy
+msgid "Etes-vous sur de vouloir supprimer cette bannière?"
+msgstr "Are you sure you want to delete this product?"
+
+#: admin/inc/jquery_widgets.php:83
+msgid "Cacher le code du widget"
+msgstr "Hide widget code"
+
+#: admin/inc/jquery_widgets.php:417
+#, fuzzy
+msgid "Sélectionnez une bannière s\\'il vous plaît"
+msgstr "Please wait"
+
+#: admin/inc/tabs.php:259 admin/inc/tabs.php:1236 admin/inc/tabs.php:1651
+msgid "Général"
+msgstr "General"
+
+#: admin/inc/tabs.php:265
+msgid "Installation : Options Générales"
+msgstr "Installation: General Options"
+
+#: admin/inc/tabs.php:270
+msgid "Options Générales"
+msgstr "General Options"
+
+#: admin/inc/tabs.php:271
+msgid "<strong></strong>"
+msgstr "<strong></strong>"
+
+#: admin/inc/tabs.php:288
+msgid ""
+"Couleur des textes (libellé catégorie, Guide Shopping libellé en haut à "
+"droite, bouton \"Voir L'offre\" , bouton \"Voir l'offre la plus économique\")"
+msgstr ""
+"Text colours (category labels, Shopping Guide label top right, button \"View "
+"offer\" , button \"View best offer\")"
+
+#: admin/inc/tabs.php:289
+msgid "Couleur des liens (libellé Sous-catégories, Prix page catégorie)"
+msgstr "Link colours (sub-category labels, Category page prices)"
+
+#: admin/inc/tabs.php:290
+msgid ""
+"Couleur du thème (fond de la boite de recherche, fond du libellé de la "
+"catégorie, h1, fond des boutons, Articles H1, libellé Article page "
+"catégorie, bordure tableau Marchand, libellé article marchand , article "
+"marchand prix)"
+msgstr ""
+"Theme colour (search box background, background category label, h1, button "
+"backgrounds, Products H1, label products category page, border merchants "
+"table, label merchant product, merchand product price)"
+
+#: admin/inc/tabs.php:291
+msgid "Couleur du fond (fond principal)"
+msgstr "Background colour (main background)"
+
+#: admin/inc/tabs.php:293
+msgid ""
+"Couleur du thème 2 (fond du footer, fond de la ligne sous la boîte de "
+"recherche, bordure sur 'trier par')"
+msgstr ""
+"Theme colour 2 (footer background, background of line under search box, "
+"border on 'order by')"
+
+#: admin/inc/tabs.php:294
+msgid "Couleur des liens 2(fil d'Ariane, liens du footer et droits d'auteur)"
+msgstr "Link colours 2(breadcrumb navigation, footer links and copyright)"
+
+#: admin/inc/tabs.php:295
+msgid ""
+"Couleur des textes 2 ('Resultats 1 à 10 sur 20', 'Trier par', libellé fiche "
+"technique, Recherche texte, Trier)"
+msgstr ""
+"Text colour 2 ('Results 1 to 10 of 20', 'Order by', technical details label, "
+"Search text, Order by)"
+
+#: admin/inc/tabs.php:297
+msgid "Couleur du thème 3 (fond d'articles disponibles) "
+msgstr "Theme colour 3 (available products background) "
+
+#: admin/inc/tabs.php:298
+msgid "Couleur des textes 3 (textes/liens d'articles disponible)"
+msgstr "Text colour 3 (texts/links available products)"
+
+#: admin/inc/tabs.php:299
+msgid "Couleur des liens 3 (Nombre de sites marchand)"
+msgstr "Link colours 3 (Number of merchant sites)"
+
+#: admin/inc/tabs.php:301
+msgid "Couleur du thème 4 (fond fiche technique, bordure)"
+msgstr "Theme colour 4 (technical details background, border)"
+
+#: admin/inc/tabs.php:302
+msgid "Couleur des textes 4 (texte fiche technique)"
+msgstr "Text colours 4 (technical details text)"
+
+#: admin/inc/tabs.php:303
+msgid ""
+"Couleur des liens 4 (libellé des groupes de fiches techniques, valeurs de "
+"caractéristiques)"
+msgstr "Links colour 4 (Technical group labels, characteristic values)"
+
+#: admin/inc/tabs.php:305 admin/inc/tabs.php:1659
+msgid "Thème"
+msgstr "Theme"
+
+#: admin/inc/tabs.php:308
+msgid "Options de Théme"
+msgstr "Theme options"
+
+#: admin/inc/tabs.php:318 admin/inc/tabs.php:1660
+msgid "Personnalisation"
+msgstr "Personalisation"
+
+#: admin/inc/tabs.php:321
+msgid "Options de Personnalisation"
+msgstr "Personalisation Options"
+
+#: admin/inc/tabs.php:331 admin/inc/tabs.php:1661
+msgid "Comportement"
+msgstr "Behaviour"
+
+#: admin/inc/tabs.php:334
+msgid "Options de Comportement"
+msgstr "Behaviour Options"
+
+#: admin/inc/tabs.php:343 admin/inc/tabs.php:1662
+msgid "Rayons"
+msgstr "Categories"
+
+#: admin/inc/tabs.php:345
+msgid "Rayons en Sélection"
+msgstr "Categories in Selection"
+
+#: admin/inc/tabs.php:353 admin/inc/tabs.php:1663
+msgid "Sélections"
+msgstr "Favourites"
+
+#: admin/inc/tabs.php:356
+msgid "Articles en Sélection"
+msgstr "Products in Selection"
+
+#: admin/inc/tabs.php:394 admin/inc/tabs.php:1210 admin/inc/tabs.php:1671
+msgid "Bannières"
+msgstr "Banners"
+
+#: admin/inc/tabs.php:398
+msgid "Paramètres des Bannières"
+msgstr "Banner Settings"
+
+#: admin/inc/tabs.php:416
+msgid ""
+"Pour terminer l'installation veuillez renseigner ici le mot de passe "
+"disponible sur votre interface Buzzea"
+msgstr ""
+"To complete installation please enter the password here (available in your "
+"Buzzea client interface)"
+
+#: admin/inc/tabs.php:418
+msgid "Vous pouvez voir les paramètres de base ici."
+msgstr "You can review the basic settings here."
+
+#: admin/inc/tabs.php:421
+msgid ""
+"Vous pouvez choisir parmi les options ci-dessous pour changer votre thème de "
+"votre guide shopping."
+msgstr ""
+"You can choose from the options below to change the theme of your Shopping "
+"Guide"
+
+#: admin/inc/tabs.php:423
+msgid ""
+"Vous pouvez choisir parmi les options ci-dessous pour personnaliser votre "
+"guide shopping."
+msgstr ""
+"You can choose from the options below to personalise your Shopping Guide"
+
+#: admin/inc/tabs.php:425
+msgid ""
+"Vous pouvez choisir parmi les options ci-dessous pour définir le "
+"comportement de votre guide shopping."
+msgstr ""
+"You can choose from the options below to define the behaviour of your "
+"Shopping Guide"
+
+#: admin/inc/tabs.php:427
+msgid ""
+"Vous pouvez afficher tous les rayons disponibles ou uniquement ceux qui vous "
+"semblent pertinents avec votre ligne &eacute;ditoriale."
+msgstr ""
+"You can show all categories available or only those relating to your "
+"readership."
+
+#: admin/inc/tabs.php:429
+msgid ""
+"Vous pouvez mettre en avant les produits qui vous semblent les plus "
+"adapt&eacute;s &agrave; votre lectorat."
+msgstr "You can highlight products most suited to your readership."
+
+#: admin/inc/tabs.php:430
+msgid ""
+"Vous pouvez choisir des articles dans les catégories ci-dessous ou "
+"rechercher des articles avec la fonction de recherche."
+msgstr ""
+"You can select products in the categories below, or search for products with "
+"the search function."
+
+#: admin/inc/tabs.php:437
+msgid ""
+"Vous pouvez choisir parmi les options ci-dessous pour personnaliser vos "
+"bannières pour votre guide shopping."
+msgstr ""
+"You can choose from the options below to personalise the banners for your "
+"Shopping Guide."
+
+#: admin/inc/tabs.php:439
+msgid "Quand vous avez terminé vous pouvez activer vos bannières dans"
+msgstr "When you have finished you can activate your banners in"
+
+#: admin/inc/tabs.php:440
+msgid "Appearance"
+msgstr "Appearance"
+
+#: admin/inc/tabs.php:441
+msgid "Widgets"
+msgstr "Widgets"
+
+#: admin/inc/tabs.php:442
+msgid ""
+"Ensuite, faites glisser «Buzzea Bannière de Shopping... » dans la zone dans "
+"laquelle vous souhaitez voir apparaître le carrousel."
+msgstr ""
+"Next, slide «Buzzea Shopping Banner... » to the widget area you wish the "
+"banner to appear."
+
+#: admin/inc/tabs.php:443
+msgid ""
+"Si votre thème ne supporte pas les widgets, vous pouvez copier/coller le "
+"code pour vos bannières et le mettre dans votre thème manuellement."
+msgstr ""
+"If your theme does not support widgets, you can copy and paste the code for "
+"your banners and place in your theme manually."
+
+#: admin/inc/tabs.php:475
+msgid "Paramètres de votre guide shopping"
+msgstr "Settings for your Shopping Guide"
+
+#: admin/inc/tabs.php:489
+msgid ""
+"S'il vous plaît vérifier à nouveau votre mot de passe pour le plugin. Elle "
+"doit correspondre à un mot de passe que nous avons dans nos dossiers. <br /"
+">Si vous continuez à rencontrer des difficultés, n'hésitez pas à nous "
+"téléphoner au numéro ci-dessous."
+msgstr ""
+"Please recheck your passowrd for the plugin. It should correspond to the "
+"password we have on file. <br />If you continue to experience difficulty "
+"please don't hesitate to contact us on the telephone number below."
+
+#: admin/inc/tabs.php:502
+msgid "M&eacute;thode d'installation&nbsp;:"
+msgstr "Install method:"
+
+#: admin/inc/tabs.php:502
+msgid "Version"
+msgstr "Version"
+
+#: admin/inc/tabs.php:503
+#, fuzzy
+msgid ""
+"Pour modifier cette méthode d'installation, veuillez nous contacter aux "
+"coordonnées suivantes :"
+msgstr ""
+"To change your URL <strong>or</strong> to change this type of installation,"
+"<br /> please contact us at the following:"
+
+#: admin/inc/tabs.php:504
+msgid "Depuis la France : "
+msgstr "From France: "
+
+#: admin/inc/tabs.php:504
+msgid "Depuis l'étranger : "
+msgstr "From Outside France: "
+
+#: admin/inc/tabs.php:504
+msgid ""
+"Horaires d'ouverture : de 10h00 à 12h00 et de 13h00 à 18h00 du Lundi au "
+"Vendredi (heure de Paris)"
+msgstr ""
+"Opening hours: from 10:00 to 12:00 and from 13:00 to 18:00 Monday to Friday "
+"(Paris time)"
+
+#: admin/inc/tabs.php:505
+msgid "Ou par mail :"
+msgstr "Or by email:"
+
+#: admin/inc/tabs.php:568
+msgid ""
+"Maintenant vous pouvez enregistrer ces paramètres, ou cliquez sur "
+"\"Reinitialiser défauts\" à nouveau pour revenir aux réglages précédents"
+msgstr ""
+"Now you can save these settings, or click on \"Switch back to default colours"
+"\" again to go back to your previous settings"
+
+#: admin/inc/tabs.php:578
+msgid "Thème Graphique"
+msgstr "Theme"
+
+#: admin/inc/tabs.php:596
+msgid "Vous pouvez choisir parmi :"
+msgstr "You can choose from:"
+
+#: admin/inc/tabs.php:616 admin/inc/tabs.php:1403
+msgid "Prévisualisation dans une nouvelle fenêtre"
+msgstr "Preview in a new window"
+
+#: admin/inc/tabs.php:624
+msgid "Paramètres du thème"
+msgstr "Theme settings"
+
+#: admin/inc/tabs.php:635
+msgid "Theme 1"
+msgstr "Theme 1"
+
+#: admin/inc/tabs.php:640
+msgid "Nombre d'articles "
+msgstr "Number of products"
+
+#: admin/inc/tabs.php:645 admin/inc/tabs.php:811
+msgid "Nombre d'articles par page :"
+msgstr "Number of products per page:"
+
+#: admin/inc/tabs.php:650 admin/inc/tabs.php:816
+msgid "Nombre d'articles par ligne :"
+msgstr "Number of products per line:"
+
+#: admin/inc/tabs.php:655 admin/inc/tabs.php:821
+msgid "Nombre de catégories par ligne :"
+msgstr "Number of categories per line:"
+
+#: admin/inc/tabs.php:667
+msgid "Couleurs : "
+msgstr "Colours:"
+
+#: admin/inc/tabs.php:672 admin/inc/tabs.php:838
+msgid "Couleur des textes"
+msgstr "Text colour"
+
+#: admin/inc/tabs.php:673 admin/inc/tabs.php:839
+msgid "libellé catégorie"
+msgstr "category labels"
+
+#: admin/inc/tabs.php:674 admin/inc/tabs.php:840
+msgid "Guide Shopping libellé en haut à droite"
+msgstr "Shopping Guide label top right"
+
+#: admin/inc/tabs.php:675 admin/inc/tabs.php:841
+msgid "bouton \"Voir L'offre\""
+msgstr "button \"View Offer\""
+
+#: admin/inc/tabs.php:676 admin/inc/tabs.php:842
+msgid "bouton \"Voir l'offre la plus économique"
+msgstr "button \"View best offer"
+
+#: admin/inc/tabs.php:683 admin/inc/tabs.php:849
+msgid "Couleur des liens"
+msgstr "Link colours"
+
+#: admin/inc/tabs.php:684 admin/inc/tabs.php:850
+msgid "libellé Sous-catégories"
+msgstr "sub category label"
+
+#: admin/inc/tabs.php:685 admin/inc/tabs.php:851
+msgid "Prix page catégorie"
+msgstr "Price category page"
+
+#: admin/inc/tabs.php:692 admin/inc/tabs.php:858
+msgid "Couleur du thème"
+msgstr "Theme colour"
+
+#: admin/inc/tabs.php:693 admin/inc/tabs.php:859
+msgid "fond de la boite de recherche"
+msgstr "search box background"
+
+#: admin/inc/tabs.php:694 admin/inc/tabs.php:860
+msgid "fond du libellé de la catégorie, h1, fond des boutons,"
+msgstr "background of category label,h1, background of buttons"
+
+#: admin/inc/tabs.php:695 admin/inc/tabs.php:861
+msgid "Articles H1, libellé Article page catégorie"
+msgstr "Products H1, Product label category page"
+
+#: admin/inc/tabs.php:696 admin/inc/tabs.php:862
+msgid "bordure tableau marchand"
+msgstr "border merchants table"
+
+#: admin/inc/tabs.php:697 admin/inc/tabs.php:863
+msgid "libellé article marchand , article marchand prix"
+msgstr "label merchant products, merchand products price"
+
+#: admin/inc/tabs.php:704 admin/inc/tabs.php:870
+msgid "Couleur du fond"
+msgstr "Background colour"
+
+#: admin/inc/tabs.php:705 admin/inc/tabs.php:871
+msgid "fond principal"
+msgstr "main background"
+
+#: admin/inc/tabs.php:712 admin/inc/tabs.php:878
+msgid "Couleur du thème 2 "
+msgstr "Theme colour 2"
+
+#: admin/inc/tabs.php:713 admin/inc/tabs.php:879
+msgid "fond du footer "
+msgstr "footer background"
+
+#: admin/inc/tabs.php:714 admin/inc/tabs.php:880
+msgid "fond de la ligne sous la boîte de recherche"
+msgstr "background line under search box"
+
+#: admin/inc/tabs.php:715 admin/inc/tabs.php:881
+msgid "bordure sur 'trier par'"
+msgstr "border on 'order by'"
+
+#: admin/inc/tabs.php:722 admin/inc/tabs.php:888
+msgid "Couleur des liens 2"
+msgstr "Link colour 2"
+
+#: admin/inc/tabs.php:723 admin/inc/tabs.php:889
+msgid "fil d'Ariane"
+msgstr "breadcrumb navigation"
+
+#: admin/inc/tabs.php:724 admin/inc/tabs.php:890
+msgid "liens du footer et droits d'auteur"
+msgstr "footer links and copyright"
+
+#: admin/inc/tabs.php:731 admin/inc/tabs.php:897
+msgid "Couleur des textes 2"
+msgstr "Text colour 2"
+
+#: admin/inc/tabs.php:732 admin/inc/tabs.php:898
+msgid "'Resultats 1 à 10 sur 20'"
+msgstr "'Results 1 to 10 of 20'"
+
+#: admin/inc/tabs.php:733 admin/inc/tabs.php:899
+msgid "'Trier par'"
+msgstr "'Order by'"
+
+#: admin/inc/tabs.php:734 admin/inc/tabs.php:900
+msgid "libellé fiche technique"
+msgstr "technical details label"
+
+#: admin/inc/tabs.php:735 admin/inc/tabs.php:901
+msgid "Recherche texte, Trier"
+msgstr "Search text, Order"
+
+#: admin/inc/tabs.php:742 admin/inc/tabs.php:908
+msgid "Couleur du thème 3"
+msgstr "Theme colour 3"
+
+#: admin/inc/tabs.php:743 admin/inc/tabs.php:909
+msgid "fond d'articles disponibles"
+msgstr "Background of available products"
+
+#: admin/inc/tabs.php:750 admin/inc/tabs.php:916
+msgid "Couleur des textes 3"
+msgstr "Text colour 3"
+
+#: admin/inc/tabs.php:751 admin/inc/tabs.php:917
+msgid "textes/liens d'articles disponible"
+msgstr "text/links of available products"
+
+#: admin/inc/tabs.php:758
+msgid "Couleur des liens 3 "
+msgstr "Link colour 3"
+
+#: admin/inc/tabs.php:759 admin/inc/tabs.php:925
+msgid "Nombre de sites marchand"
+msgstr "Number of merchant sites"
+
+#: admin/inc/tabs.php:766 admin/inc/tabs.php:932
+msgid "Couleur du thème 4"
+msgstr "Theme colour 4"
+
+#: admin/inc/tabs.php:767 admin/inc/tabs.php:933
+msgid "fond fiche technique"
+msgstr "technical details background"
+
+#: admin/inc/tabs.php:768 admin/inc/tabs.php:934
+msgid "bordure"
+msgstr "border"
+
+#: admin/inc/tabs.php:775 admin/inc/tabs.php:941
+msgid "Couleur des textes 4"
+msgstr "Text colour 4"
+
+#: admin/inc/tabs.php:776 admin/inc/tabs.php:942
+msgid "texte fiche technique"
+msgstr "technical details text"
+
+#: admin/inc/tabs.php:783 admin/inc/tabs.php:949
+msgid "Couleur des liens 4"
+msgstr "Link colour 4"
+
+#: admin/inc/tabs.php:784 admin/inc/tabs.php:950
+msgid "libellé des groupes de fiches techniques"
+msgstr "technical details group labels"
+
+#: admin/inc/tabs.php:785 admin/inc/tabs.php:951
+msgid "valeurs de caractéristiques"
+msgstr "characteristics values"
+
+#: admin/inc/tabs.php:800
+msgid "Theme 2"
+msgstr "Theme 2"
+
+#: admin/inc/tabs.php:806
+msgid "Nombre d'articles"
+msgstr "Number of products"
+
+#: admin/inc/tabs.php:833
+msgid "Couleurs :"
+msgstr "Colours:"
+
+#: admin/inc/tabs.php:924
+msgid "Couleur des liens 3"
+msgstr "Link colour 3"
+
+#: admin/inc/tabs.php:978
+msgid "Les libellés"
+msgstr "Labels"
+
+#: admin/inc/tabs.php:986
+msgid "Libellé de votre site "
+msgstr "Name of your site"
+
+#: admin/inc/tabs.php:988
+msgid "Le nom de votre site"
+msgstr "Name of your site"
+
+#: admin/inc/tabs.php:993
+msgid "Libellé de votre guide shopping "
+msgstr "Name of your Shopping Guide"
+
+#: admin/inc/tabs.php:995
+msgid "e.g. guide d'achat de vêtements <br />ou<br />moto shopping guide "
+msgstr "e.g. Clothing Shopping Guide<br />or<br />Motorbike Shopping Guide "
+
+#: admin/inc/tabs.php:1016
+msgid "<strong>Coups de Coeur / Recherche</strong>"
+msgstr "<strong>Favourites / Search</strong>"
+
+#: admin/inc/tabs.php:1030
+msgid "Afficher uniquement les produits en sélection ?"
+msgstr "Show only favourite products?"
+
+#: admin/inc/tabs.php:1031 admin/inc/tabs.php:1048 admin/inc/tabs.php:1064
+msgid "Oui"
+msgstr "Yes"
+
+#: admin/inc/tabs.php:1031 admin/inc/tabs.php:1048 admin/inc/tabs.php:1064
+msgid "Non"
+msgstr "No"
+
+#: admin/inc/tabs.php:1032
+msgid ""
+"Si vous choisissez 'non', alors le guide shopping affichera tous les "
+"produits des rayons que vous aurez choisis dans l'onglet 'Rayons'"
+msgstr ""
+"If you choose 'no', then the shopping guide shows all products from the "
+"categories you have chosen in the tab 'Categories'"
+
+#: admin/inc/tabs.php:1033
+msgid ""
+"Si vous choisissez 'oui', alors le guide shopping affichera uniquement les "
+"produits que vous aurez choisi dans l'onglet 'Sélection'"
+msgstr ""
+"If you choose 'yes', then the shopping guide shows only the products you "
+"have chosen in the tab 'Favourites'"
+
+#: admin/inc/tabs.php:1047
+msgid "Afficher les produits en sélection sur la 1ère page du guide shopping ?"
+msgstr "Show favourite products on the first page of the shopping guide?"
+
+#: admin/inc/tabs.php:1049
+msgid ""
+"Si vous choisissez 'non', alors le guide shopping affichera que les rayons "
+"sur la page d'accueil"
+msgstr ""
+"If you choose 'no', then the shopping guide shows only categories on the "
+"homepage"
+
+#: admin/inc/tabs.php:1050
+msgid ""
+"Si vous choisissez 'oui', alors le guide shopping affichera votre sélection "
+"de produits au dessus des rayons sur la page d'accueil"
+msgstr ""
+"If you choose 'yes', then the shopping guide shows your selection of "
+"products above the categories on the homepage"
+
+#: admin/inc/tabs.php:1063
+msgid "Afficher tous les produits sur la page de recherche ?"
+msgstr "Show all products on the search results page?"
+
+#: admin/inc/tabs.php:1065
+msgid ""
+"Si vous choisissez 'non', alors le guide shopping affichera que les produits "
+"pertinents des rayons que vous aurez choisis dans l'onglet 'Rayons'"
+msgstr ""
+"If you choose 'no', then the shopping guide shows only products from the "
+"categories you have chosen in the tab 'Categories'"
+
+#: admin/inc/tabs.php:1066
+msgid ""
+"Si vous choisissez 'oui', alors le guide shopping affichera tous les "
+"produits pertinents"
+msgstr ""
+"If you choose 'yes', then the shopping guide shows all relevant products"
+
+#: admin/inc/tabs.php:1152
+msgid "Ajouter une bannière"
+msgstr "Add a banner"
+
+#: admin/inc/tabs.php:1202
+#, fuzzy
+msgid "Buzzea Shopping"
+msgstr "Buzzea Shopping Banners "
+
+#: admin/inc/tabs.php:1209
+#, fuzzy
+msgid "Guide Shopping"
+msgstr "Your Shopping Guide"
+
+#: admin/inc/tabs.php:1284
+msgid "<h3>Malheureusement...</h3>"
+msgstr "<h3>Unfortunately...</h3>"
+
+#: admin/inc/tabs.php:1403
+msgid "Rétablir les couleurs par défaut"
+msgstr "Switch back to default colours"
+
+#: admin/inc/tabs.php:1549
+msgid ""
+"Oups, vous devrez choisir vos catégories avant de choisir des produits.<br />"
+msgstr "Oops, you need to choose categories before choosing products.<br />"
+
+#: admin/inc/tabs.php:1563
+msgid "<p>Mettre en avant automatiquement jusqu'à&nbsp;"
+msgstr "<p>Put in automatic selection&nbsp;"
+
+#: admin/inc/tabs.php:1564
+msgid ""
+"articles dans chaque catégorie (sauf celles où des mises en avant sont déjà "
+"effectives)"
+msgstr ""
+"products in each category (except those already chosen which are already "
+"accounted for)"
+
+#: admin/inc/tabs.php:1565
+msgid "Ces mises en avant seront réactualisées chaque jour."
+msgstr "These updates are performed once a day."
+
+#: inc/frontend_functions.php:169
+msgid "cliquez ici pour voir"
+msgstr "click here to see"
+
+#: inc/frontend_functions.php:401
+msgid ""
+"Toutes nos excuses. Nous rencontrons un problème temporaire avec le "
+"comparateur. Veuillez revenir ultèrieurement."
+msgstr ""
+"Our apologies. We have encountered a problem with the shopping guide. Please "
+"check back later."
+
+#~ msgid ""
+#~ "Trouver ces paramètres plus facilement <br />avec un élément dans le menu "
+#~ "principal (à gauche)"
+#~ msgstr ""
+#~ "Find these settings easily <br />with an item in the admin menu (to the "
+#~ "left)"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Pas installée"
+#~ msgstr "Not installed"
